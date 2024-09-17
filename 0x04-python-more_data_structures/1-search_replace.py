@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
-    squared = []
-    for line in matrix:
-        squared.append([c**2 for c in line])
-    return squared
+def search_replace(my_list, search, replace):
+    return [replace if search == n else n for n in my_list]
